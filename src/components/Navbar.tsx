@@ -12,6 +12,7 @@ const Wrapper = styled.header`
   width: 100%;
   height: 60px;
   position: fixed;
+  top: 0;
   background-color: ${(props) => props.theme.navBarColor};
   box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
   padding: 10px 30px;
