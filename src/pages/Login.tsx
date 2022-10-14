@@ -84,7 +84,7 @@ const ErrorMessageArea = styled.div`
   font-size: 0.75rem;
   margin-top: 1rem;
   line-height: 1rem;
-  color: ${(props) => props.theme.redTextColor};
+  color: ${(props) => props.theme.errorTextColor};
 `;
 
 function Login() {
