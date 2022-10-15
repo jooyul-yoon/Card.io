@@ -14,7 +14,7 @@ function Router() {
         <Route path="/" element={<Intro />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/team" element={<Main />} />
+        <Route path="/team/:id" element={<Main />} />
       </Routes>
       <DarkmodeBtn />
     </BrowserRouter>
