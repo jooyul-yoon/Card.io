@@ -66,7 +66,7 @@ const LoginBtn = styled.button`
   border-radius: 3px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 500;
   color: white;
   cursor: pointer;
   transition: 0.1s background-color;
@@ -162,7 +162,7 @@ function Login() {
           />
           <LoginBtn type="submit">
             {false ? (
-              <Spinner radius={120} color={'#333'} stroke={2} visible={true} />
+              <Spinner radius={20} color={'#fff'} stroke={1} visible={true} />
             ) : (
               '로그인'
             )}
