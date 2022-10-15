@@ -1,5 +1,9 @@
 # Card.io
 
+## 데모
+
+https://cardio.run.goorm.io/team/asdfasdf
+
 ## 목적
 
 #
